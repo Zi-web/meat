@@ -1,0 +1,1 @@
+for(var accordions=document.getElementsByClassName("accordion"),i=0;i<accordions.length;i++)accordions[i].onclick=function(){this.classList.toggle("is-open");var i=this.nextElementSibling;i.style.maxHeight?i.style.maxHeight=null:i.style.maxHeight=i.scrollHeight+"px"};
